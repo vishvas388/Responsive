@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap');
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.d-flex{
+  display: flex;
+}
+.align-items{
+  align-items: center;
+}
+
+.text {
+  font-family: DM Sans;
+  font-size: 42px;
+  text-align: center;
+  margin-top: 100px;
+  color: #1E0E62;
+}
+
+.text1 {
+  font-family: DM Sans;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+  color: #15143966;
+}
+
+.container {
+  width: 1170px;
+  height: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+
+
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.col3 {
+
+  width: 25%;
+  padding-left: 12px;
+  padding-right: 12px;
+
+}
+
+.mt {
+  /* margin-top: 52px; */
+  padding-top: 52px;
+}
+
+.margin {
+  margin-top: 30px;
+}
+.w-100{
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+@media (min-width:576px) {
+  .col_sm_6{
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  
+}
+@media (min-width:992px) {
+  .col3{
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  
+}
+.m-15{
+  margin-top: 15px;
+}
